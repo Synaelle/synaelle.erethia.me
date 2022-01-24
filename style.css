@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
+}
+
+body {
+    background-color: #1C1B29;
+    color: whitesmoke;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
+a {
+    color: whitesmoke;
+}
+
+footer {
+    margin-top: 50px;
+}
