@@ -1,11 +1,12 @@
 function copyDiscord(){
     if (!navigator.clipboard){
         var discord = document.createElement("textarea");
-        document.body.appendChild(discord)
-        discord.value = "Synaelle#0001"
+        document.body.appendChild(discord);
+        discord.value = "Synaelle#0001";
         discord.select();
         document.execCommand("copy");
-        document.body.removeChild(discord)
+        document.body.removeChild(discord);
+        alert("Copied to clipboard!");
     }
     else{
         navigator.clipboard.writeText(discord).then(
