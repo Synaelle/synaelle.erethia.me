@@ -18,3 +18,7 @@ a {
 footer {
     margin-top: 50px;
 }
+
+.hidden {
+    visibility: hidde;
+}
